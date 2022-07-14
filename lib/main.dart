@@ -18,6 +18,7 @@ import 'package:intermeeting/presentation/home/home_screen.dart';
 import 'package:intermeeting/presentation/locations/detail/location_detail_screen.dart';
 import 'package:intermeeting/presentation/settings/about/about_screen.dart';
 import 'package:intermeeting/presentation/settings/language/language_screen.dart';
+import 'package:intermeeting/presentation/login/login_screen.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -48,8 +49,13 @@ class RootApp extends StatelessWidget {
   RootApp({Key? key}) : super(key: key);
 
   final _router = GoRouter(
-    initialLocation: HomeScreen.route,
+    initialLocation: LoginScreen.route,
     routes: [
+      GoRoute(
+        path: LoginScreen.route,
+        name: LoginScreen.route,
+        builder: (context, state) => const LoginScreen(),
+      ),
       GoRoute(
         path: HomeScreen.route,
         name: HomeScreen.route,
