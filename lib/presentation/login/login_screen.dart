@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
             body: CustomScrollView(
               slivers: <Widget>[
                 SliverAppBar(
-                  title: 'ciao ciao'
+                  title: Text('ciao ciao'),
                 )
               ],
             ),
