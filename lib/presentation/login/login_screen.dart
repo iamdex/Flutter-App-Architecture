@@ -15,7 +15,14 @@ class LoginScreen extends StatelessWidget {
         viewModelBuilder: () => LoginViewModel(),
         builder: (context, viewModel, child) {
           return Scaffold(
-            body: viewModel.getPages(),
+            body: CustomScrollView(
+              slivers: <Widget>[
+                SliverAppBar(
+                  title: 'ciao ciao'
+                )
+              ],
+            ),
+            // viewModel.getPages(),
             // bottomNavigationBar: BottomNavigationBar(
             //   items: <BottomNavigationBarItem>[
             //     BottomNavigationBarItem(
