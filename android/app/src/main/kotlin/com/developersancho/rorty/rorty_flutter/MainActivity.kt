@@ -1,4 +1,4 @@
-package com.developersancho.rorty.rorty_flutter
+package com.developersancho.rorty.intermeeting
 
 import io.flutter.embedding.android.FlutterActivity
 

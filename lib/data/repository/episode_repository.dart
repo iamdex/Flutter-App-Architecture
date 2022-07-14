@@ -1,7 +1,7 @@
 import 'package:retrofit/retrofit.dart';
-import 'package:rorty_flutter/data/model/remote/episode/EpisodeInfo.dart';
-import 'package:rorty_flutter/data/model/remote/episode/EpisodeResponse.dart';
-import 'package:rorty_flutter/data/remote/service/episode/episode_service.dart';
+import 'package:intermeeting/data/model/remote/episode/EpisodeInfo.dart';
+import 'package:intermeeting/data/model/remote/episode/EpisodeResponse.dart';
+import 'package:intermeeting/data/remote/service/episode/episode_service.dart';
 
 class EpisodeRepository {
   final EpisodeService _episodeService;

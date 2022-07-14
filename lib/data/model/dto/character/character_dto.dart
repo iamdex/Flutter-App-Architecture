@@ -1,4 +1,4 @@
-import 'package:rorty_flutter/data/model/dto/episode/episode_dto.dart';
+import 'package:intermeeting/data/model/dto/episode/episode_dto.dart';
 
 import 'character_location_dto.dart';
 

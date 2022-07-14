@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:rorty_flutter/app/utils/constants.dart';
-import 'package:rorty_flutter/app/widgets/app_bar.dart';
+import 'package:intermeeting/app/utils/constants.dart';
+import 'package:intermeeting/app/widgets/app_bar.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class AboutScreen extends StatelessWidget {

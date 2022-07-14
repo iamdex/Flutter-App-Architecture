@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
-import 'package:rorty_flutter/app/di/injector.dart';
-import 'package:rorty_flutter/core/view_state.dart';
-import 'package:rorty_flutter/data/model/dto/character/character_dto.dart';
-import 'package:rorty_flutter/data/remote/dio/data_state.dart';
-import 'package:rorty_flutter/domain/character/get_character_detail.dart';
+import 'package:intermeeting/app/di/injector.dart';
+import 'package:intermeeting/core/view_state.dart';
+import 'package:intermeeting/data/model/dto/character/character_dto.dart';
+import 'package:intermeeting/data/remote/dio/data_state.dart';
+import 'package:intermeeting/domain/character/get_character_detail.dart';
 
 class CharacterDetailViewModel extends ChangeNotifier {
   final GetCharacterDetail _getCharacterDetail = injector<GetCharacterDetail>();

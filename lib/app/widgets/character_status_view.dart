@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rorty_flutter/app/widgets/circular_dot_view.dart';
-import 'package:rorty_flutter/data/model/dto/character/character_status.dart';
+import 'package:intermeeting/app/widgets/circular_dot_view.dart';
+import 'package:intermeeting/data/model/dto/character/character_status.dart';
 
 class CharacterStatusView extends StatelessWidget {
   final String status;

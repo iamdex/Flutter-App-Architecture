@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:rorty_flutter/app/language/app_language_provider.dart';
-import 'package:rorty_flutter/app/language/language_manager.dart';
-import 'package:rorty_flutter/app/widgets/app_bar.dart';
+import 'package:intermeeting/app/language/app_language_provider.dart';
+import 'package:intermeeting/app/language/language_manager.dart';
+import 'package:intermeeting/app/widgets/app_bar.dart';
 
 class LanguageScreen extends StatelessWidget {
   static const route = '/language';

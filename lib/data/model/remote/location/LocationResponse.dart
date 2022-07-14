@@ -1,5 +1,5 @@
-import 'package:rorty_flutter/data/model/remote/base/PageInfo.dart';
-import 'package:rorty_flutter/data/model/remote/location/LocationInfo.dart';
+import 'package:intermeeting/data/model/remote/base/PageInfo.dart';
+import 'package:intermeeting/data/model/remote/location/LocationInfo.dart';
 
 class LocationResponse {
   PageInfo? info;

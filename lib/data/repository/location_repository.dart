@@ -1,7 +1,7 @@
 import 'package:retrofit/retrofit.dart';
-import 'package:rorty_flutter/data/model/remote/location/LocationInfo.dart';
-import 'package:rorty_flutter/data/model/remote/location/LocationResponse.dart';
-import 'package:rorty_flutter/data/remote/service/location/location_service.dart';
+import 'package:intermeeting/data/model/remote/location/LocationInfo.dart';
+import 'package:intermeeting/data/model/remote/location/LocationResponse.dart';
+import 'package:intermeeting/data/remote/service/location/location_service.dart';
 
 class LocationRepository {
   final LocationService _locationService;

@@ -1,5 +1,5 @@
-import 'package:rorty_flutter/data/model/dto/location/location_dto.dart';
-import 'package:rorty_flutter/data/model/remote/location/LocationInfo.dart';
+import 'package:intermeeting/data/model/dto/location/location_dto.dart';
+import 'package:intermeeting/data/model/remote/location/LocationInfo.dart';
 
 extension LocationInfoExtension on LocationInfo {
   LocationDto toLocationDto() {

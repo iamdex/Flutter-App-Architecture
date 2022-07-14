@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
-import 'package:rorty_flutter/data/model/remote/episode/EpisodeInfo.dart';
-import 'package:rorty_flutter/data/model/remote/episode/EpisodeResponse.dart';
+import 'package:intermeeting/data/model/remote/episode/EpisodeInfo.dart';
+import 'package:intermeeting/data/model/remote/episode/EpisodeResponse.dart';
 
 part 'episode_service.g.dart';
 

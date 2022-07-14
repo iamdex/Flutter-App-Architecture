@@ -1,5 +1,5 @@
-import 'package:rorty_flutter/data/model/remote/base/PageInfo.dart';
-import 'package:rorty_flutter/data/model/remote/episode/EpisodeInfo.dart';
+import 'package:intermeeting/data/model/remote/base/PageInfo.dart';
+import 'package:intermeeting/data/model/remote/episode/EpisodeInfo.dart';
 
 class EpisodeResponse {
   PageInfo? info;

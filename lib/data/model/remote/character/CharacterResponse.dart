@@ -1,4 +1,4 @@
-import 'package:rorty_flutter/data/model/remote/base/PageInfo.dart';
+import 'package:intermeeting/data/model/remote/base/PageInfo.dart';
 
 import 'CharacterInfo.dart';
 

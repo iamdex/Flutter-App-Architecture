@@ -1,14 +1,14 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:rorty_flutter/app/widgets/app_bar.dart';
-import 'package:rorty_flutter/app/widgets/empty_screen.dart';
-import 'package:rorty_flutter/app/widgets/error_screen.dart';
-import 'package:rorty_flutter/app/widgets/line_view.dart';
-import 'package:rorty_flutter/app/widgets/loading_screen.dart';
-import 'package:rorty_flutter/core/view_state.dart';
-import 'package:rorty_flutter/data/model/dto/character/character_dto.dart';
-import 'package:rorty_flutter/presentation/characters/detail/character_detail_screen.dart';
+import 'package:intermeeting/app/widgets/app_bar.dart';
+import 'package:intermeeting/app/widgets/empty_screen.dart';
+import 'package:intermeeting/app/widgets/error_screen.dart';
+import 'package:intermeeting/app/widgets/line_view.dart';
+import 'package:intermeeting/app/widgets/loading_screen.dart';
+import 'package:intermeeting/core/view_state.dart';
+import 'package:intermeeting/data/model/dto/character/character_dto.dart';
+import 'package:intermeeting/presentation/characters/detail/character_detail_screen.dart';
 import 'package:stacked/stacked.dart';
 
 import 'location_detail_view_model.dart';

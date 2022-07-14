@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
-import 'package:rorty_flutter/data/model/remote/location/LocationInfo.dart';
-import 'package:rorty_flutter/data/model/remote/location/LocationResponse.dart';
+import 'package:intermeeting/data/model/remote/location/LocationInfo.dart';
+import 'package:intermeeting/data/model/remote/location/LocationResponse.dart';
 
 part 'location_service.g.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
-import 'package:rorty_flutter/app/di/injector.dart';
-import 'package:rorty_flutter/core/view_state.dart';
-import 'package:rorty_flutter/data/model/dto/episode/episode_dto.dart';
-import 'package:rorty_flutter/data/remote/dio/data_state.dart';
-import 'package:rorty_flutter/domain/episode/get_episode_detail.dart';
+import 'package:intermeeting/app/di/injector.dart';
+import 'package:intermeeting/core/view_state.dart';
+import 'package:intermeeting/data/model/dto/episode/episode_dto.dart';
+import 'package:intermeeting/data/remote/dio/data_state.dart';
+import 'package:intermeeting/domain/episode/get_episode_detail.dart';
 import 'package:stacked/stacked.dart';
 
 class EpisodeDetailViewModel extends BaseViewModel {

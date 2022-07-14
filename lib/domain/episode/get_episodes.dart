@@ -2,12 +2,12 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:rorty_flutter/core/use_case.dart';
-import 'package:rorty_flutter/data/model/dto/episode/episode_dto.dart';
-import 'package:rorty_flutter/data/model/dto/episode/episode_dto_extension.dart';
-import 'package:rorty_flutter/data/remote/dio/data_state.dart';
-import 'package:rorty_flutter/data/remote/dio/dio_exception.dart';
-import 'package:rorty_flutter/data/repository/episode_repository.dart';
+import 'package:intermeeting/core/use_case.dart';
+import 'package:intermeeting/data/model/dto/episode/episode_dto.dart';
+import 'package:intermeeting/data/model/dto/episode/episode_dto_extension.dart';
+import 'package:intermeeting/data/remote/dio/data_state.dart';
+import 'package:intermeeting/data/remote/dio/dio_exception.dart';
+import 'package:intermeeting/data/repository/episode_repository.dart';
 
 class GetEpisodes
     implements UseCase<DataState<List<EpisodeDto>>, GetEpisodesParams> {

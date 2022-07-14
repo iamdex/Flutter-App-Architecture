@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:rorty_flutter/presentation/characters/list/characters_screen.dart';
-import 'package:rorty_flutter/presentation/episodes/list/episodes_screen.dart';
-import 'package:rorty_flutter/presentation/locations/list/locations_screen.dart';
-import 'package:rorty_flutter/presentation/settings/settings_screen.dart';
+import 'package:intermeeting/presentation/characters/list/characters_screen.dart';
+import 'package:intermeeting/presentation/episodes/list/episodes_screen.dart';
+import 'package:intermeeting/presentation/locations/list/locations_screen.dart';
+import 'package:intermeeting/presentation/settings/settings_screen.dart';
 import 'package:stacked/stacked.dart';
 
 class HomeViewModel extends BaseViewModel {

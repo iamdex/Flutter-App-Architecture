@@ -1,4 +1,4 @@
-import 'package:rorty_flutter/data/model/dto/character/character_dto.dart';
+import 'package:intermeeting/data/model/dto/character/character_dto.dart';
 
 class LocationDto {
   final int? id;

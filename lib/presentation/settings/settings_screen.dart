@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:rorty_flutter/app/theme/app_color.dart';
-import 'package:rorty_flutter/app/theme/app_theme_provider.dart';
-import 'package:rorty_flutter/app/widgets/app_bar.dart';
-import 'package:rorty_flutter/app/widgets/line_view.dart';
-import 'package:rorty_flutter/presentation/settings/about/about_screen.dart';
-import 'package:rorty_flutter/presentation/settings/language/language_screen.dart';
+import 'package:intermeeting/app/theme/app_color.dart';
+import 'package:intermeeting/app/theme/app_theme_provider.dart';
+import 'package:intermeeting/app/widgets/app_bar.dart';
+import 'package:intermeeting/app/widgets/line_view.dart';
+import 'package:intermeeting/presentation/settings/about/about_screen.dart';
+import 'package:intermeeting/presentation/settings/language/language_screen.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({Key? key}) : super(key: key);

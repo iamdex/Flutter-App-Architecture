@@ -2,16 +2,16 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:rorty_flutter/app/di/injector.dart';
-import 'package:rorty_flutter/app/widgets/app_bar.dart';
-import 'package:rorty_flutter/app/widgets/character_status_view.dart';
-import 'package:rorty_flutter/app/widgets/empty_screen.dart';
-import 'package:rorty_flutter/app/widgets/error_screen.dart';
-import 'package:rorty_flutter/app/widgets/loading_screen.dart';
-import 'package:rorty_flutter/core/view_state.dart';
-import 'package:rorty_flutter/data/model/dto/episode/episode_dto.dart';
-import 'package:rorty_flutter/presentation/episodes/detail/episode_detail_screen.dart';
-import 'package:rorty_flutter/presentation/locations/detail/location_detail_screen.dart';
+import 'package:intermeeting/app/di/injector.dart';
+import 'package:intermeeting/app/widgets/app_bar.dart';
+import 'package:intermeeting/app/widgets/character_status_view.dart';
+import 'package:intermeeting/app/widgets/empty_screen.dart';
+import 'package:intermeeting/app/widgets/error_screen.dart';
+import 'package:intermeeting/app/widgets/loading_screen.dart';
+import 'package:intermeeting/core/view_state.dart';
+import 'package:intermeeting/data/model/dto/episode/episode_dto.dart';
+import 'package:intermeeting/presentation/episodes/detail/episode_detail_screen.dart';
+import 'package:intermeeting/presentation/locations/detail/location_detail_screen.dart';
 
 import 'character_detail_view_model.dart';
 

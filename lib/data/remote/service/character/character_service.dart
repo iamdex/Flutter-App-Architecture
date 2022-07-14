@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
-import 'package:rorty_flutter/data/model/remote/character/CharacterInfo.dart';
-import 'package:rorty_flutter/data/model/remote/character/CharacterResponse.dart';
+import 'package:intermeeting/data/model/remote/character/CharacterInfo.dart';
+import 'package:intermeeting/data/model/remote/character/CharacterResponse.dart';
 
 part 'character_service.g.dart';
 

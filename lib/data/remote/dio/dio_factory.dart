@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:rorty_flutter/data/remote/dio/logging_interceptor.dart';
+import 'package:intermeeting/data/remote/dio/logging_interceptor.dart';
 
 class DioFactory {
   final String _baseUrl;

@@ -1,6 +1,6 @@
-import 'package:rorty_flutter/data/model/remote/character/CharacterInfo.dart';
-import 'package:rorty_flutter/data/model/remote/character/Location.dart';
-import 'package:rorty_flutter/data/model/remote/character/Origin.dart';
+import 'package:intermeeting/data/model/remote/character/CharacterInfo.dart';
+import 'package:intermeeting/data/model/remote/character/Location.dart';
+import 'package:intermeeting/data/model/remote/character/Origin.dart';
 
 import 'character_dto.dart';
 import 'character_location_dto.dart';

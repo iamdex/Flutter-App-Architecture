@@ -2,14 +2,14 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:rorty_flutter/core/use_case.dart';
-import 'package:rorty_flutter/data/model/dto/character/character_dto_extension.dart';
-import 'package:rorty_flutter/data/model/dto/location/location_dto.dart';
-import 'package:rorty_flutter/data/model/dto/location/location_dto_extension.dart';
-import 'package:rorty_flutter/data/remote/dio/data_state.dart';
-import 'package:rorty_flutter/data/remote/dio/dio_exception.dart';
-import 'package:rorty_flutter/data/repository/character_repository.dart';
-import 'package:rorty_flutter/data/repository/location_repository.dart';
+import 'package:intermeeting/core/use_case.dart';
+import 'package:intermeeting/data/model/dto/character/character_dto_extension.dart';
+import 'package:intermeeting/data/model/dto/location/location_dto.dart';
+import 'package:intermeeting/data/model/dto/location/location_dto_extension.dart';
+import 'package:intermeeting/data/remote/dio/data_state.dart';
+import 'package:intermeeting/data/remote/dio/dio_exception.dart';
+import 'package:intermeeting/data/repository/character_repository.dart';
+import 'package:intermeeting/data/repository/location_repository.dart';
 
 class GetLocationDetail
     implements UseCase<DataState<LocationDto>, GetLocationDetailParams> {
