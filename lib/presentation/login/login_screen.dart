@@ -18,8 +18,14 @@ class LoginScreen extends StatelessWidget {
             body: CustomScrollView(
               slivers: <Widget>[
                 SliverAppBar(
-                  title: Text('ciao ciao'),
-                )
+                  expandedHeight: MediaQuery.of(context).size.height * 0.60,
+                  // snap: true,
+                  pinned: true,
+                  floating: true,
+                  flexibleSpace: const FlexibleSpaceBar(
+                    title: Text('prova prova'),
+                  ),
+                ),
               ],
             ),
             // viewModel.getPages(),
