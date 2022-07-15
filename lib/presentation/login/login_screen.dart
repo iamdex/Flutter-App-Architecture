@@ -26,10 +26,12 @@ class LoginScreen extends StatelessWidget {
                     title: Text('prova prova'),
                   ),
                 ),
-                Container(
-                  height: 300,
-                  child: Center(),
-                )
+                SizedBox(
+                  height: 300.0,
+                  child: Center(
+                    child: Text('containersss'),
+                  ),
+                ),    
               ],
             ),
             // viewModel.getPages(),
